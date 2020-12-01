@@ -3,6 +3,7 @@ body {
 }
 .header-div {
     background-color: lightblue;
+    overflow: hidden;
 }
 
 .sub-div-1 {
@@ -42,5 +43,30 @@ li a {
 }
 
 li a:hover {
-    background-color: lightblue;
+    background-color: green;
+}
+
+.image-div {
+    width: auto;
+    height: 600px;
+    background: url(pexels-thorsten-technoman-338504.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.image-div h1, .image-div p{
+    margin: 0;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.image-div-text {
+    color: white;
+    position: relative;
+    top: 40%;
+}
+
+.image-div h1 {
+    font-size: 40px;
+    text-transform: uppercase;
 }
