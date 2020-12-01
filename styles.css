@@ -1,0 +1,46 @@
+body {
+    margin: 0 0 auto;
+}
+.header-div {
+    background-color: lightblue;
+}
+
+.sub-div-1 {
+    display: inline;
+    float: left;
+    padding-left: 100px;
+}
+
+.sub-div-2 {
+    display: inline;
+    float: right;
+    padding-right: 100px;
+}
+
+.sub-div-2 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.logo {
+    margin: 0;
+    padding: 14px 16px;
+    font-family: 'Nerko One', cursive;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: lightblue;
+}
