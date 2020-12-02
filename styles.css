@@ -1,8 +1,8 @@
 body {
     margin: 0 0 auto;
+    background-color: #f4f4f2;
 }
 .header-div {
-    background-color: lightblue;
     overflow: hidden;
 }
 
@@ -12,10 +12,11 @@ body {
     padding-left: 100px;
 }
 
-.sub-div-2 {
+.sub-div-2{
     display: inline;
     float: right;
     padding-right: 100px;
+    font-weight: bold;
 }
 
 .sub-div-2 ul {
@@ -48,7 +49,7 @@ li a:hover {
 
 .image-div {
     width: auto;
-    height: 600px;
+    height: 500px;
     background: url(pexels-thorsten-technoman-338504.jpg) no-repeat;
     background-size: cover;
     text-align: center;
@@ -70,3 +71,55 @@ li a:hover {
     font-size: 40px;
     text-transform: uppercase;
 }
+
+.date-picker {
+    width: 850px;
+    height: 150px;
+    background-color: white;
+    position: relative;
+    top: 65%;
+    margin: auto;
+    display: block;
+    border-radius: 6px;
+}
+form {
+    background-color: white;
+    display: inline-block;
+    margin-top: 30px;
+    font-weight: bold;
+}
+.date-picker-elements {
+    display: inline-block;
+    padding: 10px 10px 5px;
+    text-align: left;
+}
+
+.label {
+    margin-bottom: 8px;
+}
+
+input[type=date] {
+    width: 130px;
+    padding: 0;
+}
+
+input[type=date], select, button {
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid #f5b461;
+    margin-right: 10px;
+}
+ select{
+    width: 50px;
+    padding: 1px;
+ }
+
+ button {
+    width: 100px;
+    background-color: #f5b461;
+    padding: 1px;
+ }
+ 
+ input:focus, select:focus {
+    outline: none;
+ }
