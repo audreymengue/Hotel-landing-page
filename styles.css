@@ -42,10 +42,16 @@ li a {
     text-align: center;
     text-decoration: none;
     color: black;
+    height: 30px;
 }
 
-li a:hover {
-    background-color: green;
+li a:hover, li a:active {
+    background-color: white;
+}
+
+.up-button {
+    border: 0;
+    padding: 0;
 }
 
 .image-div {
@@ -130,5 +136,11 @@ input[type=date], select, button {
     height: 50px;
     background-color: #fcf8ec;
     position: relative;
-    top: 182px;
+    text-align: center;
+    top: 167px;
+ }
+
+ .footer-para {
+    position: relative;
+    top: 20px;
  }
